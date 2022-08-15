@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+body {
+  padding: 20px 0px 0px 20px;
+}
+a {
+  text-decoration: none !important;
+}
+
+.custom-search {
+  position: relative;
+  width: 600px !important;
+}
+.custom-search-input {
+  width: 100px;
+  padding-right: 100px !important;
+  box-sizing: border-box;
+}
+.custom-search-botton {
+  position: absolute;
+  right: 3px;
+  top: 0;
+  bottom: 3px;
+  line-height: 2 !important;
+  z-index: 4;
+}
+.answers {
+  width: 500px;
+}
+.answers p {
+  margin-bottom: 3px;
+}
+.results {
+  margin: 15px 0 15px 5px;
+  border-left: 6px rgba(128, 128, 128, 0.4) solid;
+  padding: 1px;
+}
+.results-coach {
+  background-color: rgba(243, 217, 87, 0.214);
+}
+.results p {
+  margin: 15px 30px 15px 15px;
+}
